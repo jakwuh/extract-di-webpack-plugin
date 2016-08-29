@@ -1,7 +1,7 @@
 /.idea/
 /node_modules/
-/dist/
 /test/
 /webpack.config.js
 /webpack.spec.config.js
+/dist/spec.es5.js
 /.travis.yml

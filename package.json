@@ -7,7 +7,8 @@
     "build": "npm run build:plugin && npm run build:spec",
     "build:plugin": "webpack",
     "build:spec": "webpack --config webpack.spec.config.js",
-    "test": "npm run build && mocha ./dist/spec.es5"
+    "test": "npm run build && mocha ./dist/spec.es5",
+    "prepublish": "npm run build && mocha ./dist/spec.es5"
   },
   "author": "jakwuh <jakwuh@yandex-team.ru>",
   "license": "ISC",
