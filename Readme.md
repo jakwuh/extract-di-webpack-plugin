@@ -1,5 +1,11 @@
 # extract-di-webpack-plugin [![Build Status](https://travis-ci.org/jakwuh/extract-di-webpack-plugin.svg?branch=master)](https://travis-ci.org/jakwuh/extract-di-webpack-plugin)
 
+## Installation
+
+```js
+npm i -S extract-di-webpack-plugin
+```
+
 ## Usage:
 
 ### Step 1
