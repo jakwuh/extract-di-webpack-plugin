@@ -5,13 +5,14 @@
 ### Step 1
 
 Add plugin to webpack config:
-```webpack.config.js
-var ExtractDIPlugin = require('extract-di-webpack-plugin');
+```js
+// webpack.config.js
+const ExtractDIPlugin = require('extract-di-webpack-plugin');
 
 module.exports = {
     // ...
     plugins: [
-        ...
+        // ...
         new ExtractDIPlugin()
     ]
     
