@@ -22,9 +22,11 @@ module.exports = {
 ExtractDIPlugin accepts 2 options:
 
 ```js
-    @param {string} [moduleName = 'di-definitions] - used for requiring definitions in your code
-    @param {{}} options
-    @param {string} [options.exportName = '__diDefinitions'] - used for parsing definitions from your modules
+/**
+ * @param {string} [moduleName = 'di-definitions] - used for requiring definitions in your code
+ * @param {{}} options
+ * @param {string} [options.exportName = '__diDefinitions'] - used for parsing definitions from your modules
+ */
 ```
 
 ## Step 2
