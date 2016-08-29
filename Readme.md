@@ -2,7 +2,7 @@
 
 ## Installation
 
-```js
+```bash
 npm i -S extract-di-webpack-plugin
 ```
 
