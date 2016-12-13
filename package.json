@@ -13,6 +13,9 @@
   "author": "jakwuh <jakwuh@yandex-team.ru>",
   "license": "ISC",
   "repository": "git://github.com/jakwuh/extract-di-webpack-plugin",
+  "publishConfig": {
+      "registry": "https://registry.npmjs.org"
+  },
   "dependencies": {
     "babel-core": "^5.8.38",
     "lodash": "^4.15.0"
