@@ -1,6 +1,6 @@
 {
   "name": "extract-di-webpack-plugin",
-  "version": "5.0.0",
+  "version": "5.0.1",
   "description": "Webpack plugin for static dependency injection analysis",
   "main": "dist/index.es5.js",
   "scripts": {
